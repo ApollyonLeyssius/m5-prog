@@ -44,4 +44,10 @@ Bij de tweede staat Playerr met dubbel r
 
 https://github.com/Celestial-Fox/M4_BO_Mythe/issues 
 
+# Opdracht 5c 
 
+<img width="1213" height="255" alt="Schermafbeelding 2025-10-03 120732" src="https://github.com/user-attachments/assets/e7db5e7e-558b-46b6-8ca0-23ce2c3bb4b1" />
+
+# Opdracht 5d
+
+https://github.com/ApollyonLeyssius/Tower-defense-bo/issues
