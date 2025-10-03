@@ -5,7 +5,7 @@ using UnityEngine;
 public class balls : MonoBehaviour
 {
     public GameObject prefab;
-    private float elapsedTime = 0f;
+    private float elapsedTime = 1f;
     public Material mat;
     private void CreateBall()
     {
@@ -26,7 +26,13 @@ public class balls : MonoBehaviour
         {
             mat.SetColor("_BaseColor", c);
         }
+
+        ball.GetComponent<MeshRenderer>().material = mat;
+        ball.transform.position = position;
+        DestroyBall(ball);
     }
+
+
 
     // Start is called before the first frame update
     void Start()
