@@ -51,3 +51,10 @@ https://github.com/Celestial-Fox/M4_BO_Mythe/issues
 # Opdracht 5d Bijhouden bugs voor Towerdefense
 
 https://github.com/ApollyonLeyssius/Tower-defense-bo/issues
+
+# Opdracht 6: SRP
+
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/opdracht67
+
+
+# Opdracht 7: DRY
