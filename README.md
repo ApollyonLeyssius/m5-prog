@@ -32,6 +32,7 @@ https://github.com/ApollyonLeyssius/m5-prog/blob/main/m5%20prog/Assets/scripts/O
 https://github.com/ApollyonLeyssius/m5-prog/blob/main/m5%20prog/Assets/scripts/Opdracht%202/Playermovement.cs
 
 https://github.com/ApollyonLeyssius/m5-prog/blob/main/m5%20prog/Assets/scripts/Opdracht%202/scoreBoard.cs
+![Opdracht 4](https://github.com/user-attachments/assets/2bc3d82a-b877-485e-8cb0-f6106a16ba78)
 
 ![Opdracht 4]([https://github.com/user-attachments/assets/d62c1e74-fa35-4093-b836-bd2d97b8c1da](https://github.com/ApollyonLeyssius/m5-prog/blob/main/gifs/Opdracht%204.gif?raw=true))
 
