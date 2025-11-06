@@ -62,6 +62,6 @@ Ik heb met de SRP methodes Het script in 4 delen kunnen opbreken, terwijl alles 
 
 # Opdracht 8: Inheritance
 
-[Opdracht 8](https://github.com/user-attachments/assets/21e81107-2aea-4576-ad7e-929baf408d4c)
+![Opdracht 8](https://github.com/user-attachments/assets/6fdc5ab6-a669-435b-8e87-0e730bc4620a)
 
 https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/Opdracht%208
