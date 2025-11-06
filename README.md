@@ -50,11 +50,18 @@ https://github.com/Celestial-Fox/M4_BO_Mythe/issues
 
 # Opdracht 5d Bijhouden bugs voor Towerdefense
 
-https://github.com/ApollyonLeyssius/Tower-defense-bo/issues
+https://github.com/ApollyonLeyssius/Tower-defense-bo/issues!
 
-# Opdracht 6: SRP
+
+# Opdracht 6: SRP en Opdracht 7: DRY
+
+![Opdracht 6](https://github.com/user-attachments/assets/ed542b62-496b-4317-bf3b-f994ad30d14b)
 
 https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/opdracht67
+Ik heb met de SRP methodes Het script in 4 delen kunnen opbreken, terwijl alles nog hun functie behoud. 
 
+# Opdracht 8: Inheritance
 
-# Opdracht 7: DRY
+[Opdracht 8](https://github.com/user-attachments/assets/21e81107-2aea-4576-ad7e-929baf408d4c)
+
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/Opdracht%208
