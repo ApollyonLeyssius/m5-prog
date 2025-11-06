@@ -56,7 +56,7 @@ https://github.com/ApollyonLeyssius/Tower-defense-bo/issues!
 # Opdracht 6: SRP en Opdracht 7: DRY
 
 ![Opdracht 6](https://github.com/user-attachments/assets/ed542b62-496b-4317-bf3b-f994ad30d14b)
-
+De gif ziet er slecht uit, ik weet niet waarom. In ScreenToGif ziet het er goed uit, alles doet het, als u het zeker wilt weten kan ik de gif ook op teams sturen.
 https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/opdracht67
 Ik heb met de SRP methodes Het script in 4 delen kunnen opbreken, terwijl alles nog hun functie behoud. 
 
