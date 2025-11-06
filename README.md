@@ -65,3 +65,25 @@ Ik heb met de SRP methodes Het script in 4 delen kunnen opbreken, terwijl alles 
 ![Opdracht 8](https://github.com/user-attachments/assets/6fdc5ab6-a669-435b-8e87-0e730bc4620a)
 
 https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/Opdracht%208
+
+
+# Opdracht 9, Encapsulation:
+
+```
+class projectile:
+Transform target read & write
+event Action OnEnemyHit read only
+Class MoneyUpdate:
+Int Money = read & write
+Class EnemeySpawner
+int waveNumber = read & write
+Class buildManager
+tower GetTowerSel() ............... read only
+int SetTowerSel(int _SelectedTower) .. write only
+class Plots
+Tower Tower ...................... read & write
+class EnemyHealth:
+event Action OnDeath ............. read only
+```
+
+https://github.com/ApollyonLeyssius/Tower-defense-bo/tree/main/Tower%20defense%20game%20BO/Assets/scripts
