@@ -88,3 +88,38 @@ event Action OnDeath ............. read only
 ```
 
 https://github.com/ApollyonLeyssius/Tower-defense-bo/tree/main/Tower%20defense%20game%20BO/Assets/scripts
+
+
+
+# Opdracht 10,
+
+# Opdracht 11,
+
+```mermaid
+---
+Title: Class Diagram Tower Defense
+---
+
+//geef aan dat je een class diagram wil maken
+classDiagram
+
+//definieer je classes en bijhorende attributen en operaties
+class MyClass{
+    + Attribute     //public
+    - attribute     //private
+    + Operation()   //public
+    - Operation()   //private
+}
+
+
+//geef alle relaties aan
+//Overerving Relatie
+ChildClass --|> ParentClass
+
+//Dependancy relatie
+DependentClass ..> MyClass
+
+//2 richting relatie
+MyClass <..> AnotherClass
+
+```
