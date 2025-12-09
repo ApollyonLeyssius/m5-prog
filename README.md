@@ -96,30 +96,160 @@ https://github.com/ApollyonLeyssius/Tower-defense-bo/tree/main/Tower%20defense%2
 # Opdracht 11,
 
 ```mermaid
----
-Title: Class Diagram Tower Defense
----
-
-//geef aan dat je een class diagram wil maken
 classDiagram
 
-//definieer je classes en bijhorende attributen en operaties
-class MyClass{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+class mainMenu {
+    +StartGame()
+    +ExitGame()
+}
+
+class GameOver {
+    +Retry()
+    +ExitToMenu()
+    +QuitGame()
+}
+
+class plots {
+    -TowerObject : GameObject
+    +Tower : Tower
+    -OnMouseEnter()
+    -OnMouseExit()
+    -OnMouseDown()
+}
+
+class shopMenu {
+    -IsMenuOpen : bool
+    -OnGUI()
+    +ToggleMenu()
+}
+
+class waveNumber {
+    -WaveNumber : int
+}
+
+class moneyUpdate {
+    +Money : int
+    +IncreaseAmount(int : amount)
+    +SpendMoney(amount : int)
+}
+
+class tower {
+    +Name : string
+    +Cost : int
+    +Prefab : GameObject
+    +Tower : Tower
+}
+
+class enemySpawner {
+    -enemyPrefab : GameObject[]
+    -timeBetweenEnemy : float
+    -BaseEnemies : int
+    -timeBetweenWaves : float
+    -diffScalingFactor : float
+    -waveNumber : int
+    -timeSinceSpawn : float
+    -enemiesAlive : int
+    -enemiesToSpawn : int
+    -isSpawning : bool
+    +onEnemyDestroy : UnityEvent
+    +Waveincreased : event Action
+    -Enemydestroyed()
+    -EnemiesPerWave()
+    -StartWave()
+    -Endwave()
+    -SpawnEnemy()
+}
+
+class enemyHealth {
+    -Health : int
+    -isDead : bool
+    +onDeath : event Action
+    +takeDamage(damage : int)
+}
+
+class WaypointFollower {
+    -path : path
+    -speed : float
+    -waypointIndex : int
+    -reachedWaypointClearance : float
+}
+
+class path {
+    -waypoints : Transform[]
+}
+
+class healthPoints {
+    -health : int
+}
+
+class Tower {
+    -Range : float
+    -FireRate : float
+    -TargetLayer : LayerMask
+    -Rotationpoint : Transform
+    -ProjectilePrefab : GameObject
+    -firingpoint : Transform
+    -BPS : float
+    -Target : Transform
+    -TimeUntilFire : float
+    -upgradeButton : Button
+    -UpgradeUI : GameObject
+    -upgradeLevel : int
+    -BaseUpgradeCost : int
+
+    +OpenUpgradeUI()
+    +CloseUpgradeUI()
+    +UpgradeTower()
+    -CalculateUpgradeCost()
+    -CalculateShootspeed()
+    -CalculateRange()
+    -CheckTargetInRange()
+    -rotateToTarget()
+    -FindTarget()
+    -Shoot()
+}
+
+class TowerPleacement {
+    -towerPrefabs : GameObject
+    -TowerSlots : GameObject[]
+    -TowerslotIndex : int
+    -PlaceTowers(int : slotIndex)
+}
+
+class buildManager {
+    +Buildmanager Main
+    -towers : Tower[]
+    -SelectedTower : int
+    +GetTowerSel()
+    +SetTowerSel(int : _SelectedTower)
+}
+
+class projectile {
+    +target : Transform
+    -speed : float
+    -damage : int
+    -lastdirection : Vector3
+    +onEnemyHit : event Action
 }
 
 
-//geef alle relaties aan
-//Overerving Relatie
-ChildClass --|> ParentClass
 
-//Dependancy relatie
-DependentClass ..> MyClass
+Tower --> projectile  :shoots
+projectile --> enemyHealth : hits
+enemyHealth --> WaypointFollower : dies
+WaypointFollower --> path : follows
+buildManager --> TowerPleacement : places
+TowerPleacement --> Tower : builds
+Tower --> enemyHealth : attacks
+enemySpawner --> WaypointFollower : spawns
+moneyUpdate --> enemyHealth : Plus money on death
+shopMenu --> buildManager : selects tower
+enemySpawner --> waveNumber : increases wave
+plots --> Tower : holds
+Tower --> moneyUpdate : costs money
+GameOver --> mainMenu : returns to menu
+WaypointFollower --> healthPoints : damages
+tower --> shopMenu : upgrades
 
-//2 richting relatie
-MyClass <..> AnotherClass
 
 ```
