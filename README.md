@@ -91,9 +91,13 @@ https://github.com/ApollyonLeyssius/Tower-defense-bo/tree/main/Tower%20defense%2
 
 
 
-# Opdracht 10,
+# Opdracht 10 Code Conventions,
 
-# Opdracht 11,
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/Opdracht%206.1
+
+![opdracht 1m6]([https://github.com/user-attachments/assets/6fdc5ab6-a669-435b-8e87-0e730bc4620a](https://github.com/ApollyonLeyssius/m5-prog/blob/main/gifs/opdracht%201m6.gif?raw=true))
+
+# Opdracht 11 Class Diagrams,
 
 ```mermaid
 classDiagram
