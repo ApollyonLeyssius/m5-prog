@@ -279,3 +279,11 @@ https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/o
 
 ![Bezig met opnemen 2026-01-21 110825](https://github.com/user-attachments/assets/ad302e6f-88b3-4baf-90cd-66eeb7fc3d46)
 
+# Opdracht 14 OOP Abstractie
+
+Ik maakte gebruik van de OOP Abstracties en maakt zo de opdracht succesvol.
+
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/65
+
+![6m5](https://github.com/user-attachments/assets/32e8ab2b-6ae5-4be4-9b64-9f2bc27f82e6)
+
