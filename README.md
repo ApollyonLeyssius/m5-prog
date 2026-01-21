@@ -261,3 +261,11 @@ tower --> shopMenu : upgrades
 
 
 ```
+
+# Opdracht 12 Data Structures
+
+Ik heb gebruik gemaakt van data structures om deze opdracht te maken.
+
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/62
+
+![opdracht 2m6](https://github.com/user-attachments/assets/970046bb-3cdb-41a5-8cff-0a0a68c83f0b)
