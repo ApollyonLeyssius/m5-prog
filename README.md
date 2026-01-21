@@ -269,3 +269,13 @@ Ik heb gebruik gemaakt van data structures om deze opdracht te maken.
 https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/62
 
 ![opdracht 2m6](https://github.com/user-attachments/assets/970046bb-3cdb-41a5-8cff-0a0a68c83f0b)
+
+
+# Opdracht 13 Delegates
+
+Ik heb gebruik gemaakt van de lose coupeling en delegates om deze opdracht te maken.
+
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/opdracht%2064
+
+![Bezig met opnemen 2026-01-21 110825](https://github.com/user-attachments/assets/ad302e6f-88b3-4baf-90cd-66eeb7fc3d46)
+
