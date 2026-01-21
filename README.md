@@ -289,6 +289,8 @@ https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/6
 
 # Opdracht 15 Polymorfisme
 
+Ik heb gebruik gemaakt van polymorfisme om deze opdracht te maken en het werkte. 
+
 https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/66
 
 ![Opdracht 6m6](https://github.com/user-attachments/assets/dcb3956b-7c02-4920-aeec-8dca9847ac50)
