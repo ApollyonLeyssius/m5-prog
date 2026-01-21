@@ -287,3 +287,39 @@ https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/6
 
 ![6m5](https://github.com/user-attachments/assets/32e8ab2b-6ae5-4be4-9b64-9f2bc27f82e6)
 
+# Opdracht 15 Polymorfisme
+
+https://github.com/ApollyonLeyssius/m5-prog/tree/main/m5%20prog/Assets/scripts/66
+
+![Opdracht 6m6](https://github.com/user-attachments/assets/dcb3956b-7c02-4920-aeec-8dca9847ac50)
+
+# Opdracht 16 Early Return
+
+Ik heb early returns gebruikt om deze if statement op te breken in kleinere delen
+
+```csharp
+public bool IsPlayerReadyToAttack(Player player)
+{
+    if (player == null) return false;
+    if (!player.IsAlive) return false;
+    if (player.AttackCooldown > 0) return false;
+
+    if (player.Target == null) return false;
+    if (!player.Target.IsAlive) return false;
+
+    if (Vector3.Distance(
+            player.transform.position,
+            player.Target.transform.position) >= 5f)
+        return false;
+
+    bool hasResources =
+        (player.Mana >= 20 && player.WeaponEquipped) ||
+        (player.Health > 30 && player.HasBuff("Strength"));
+
+    if (!hasResources) return false;
+
+    if (player.IsStunned || player.IsSlowed) return false;
+
+    return true;
+}
+```
