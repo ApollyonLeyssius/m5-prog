@@ -20,9 +20,6 @@ public class ScoreManager : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    /// <summary>
-    /// Adds score and notifies listeners.
-    /// </summary>
     public void AddScore(int amount)
     {
         currentScore += amount;

@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class Elf : EnemyParent
 {
-    private Renderer renderer;
+            private Renderer _renderer;
 
     void Start()
     {
         Enemylives = 1;
         speed = 2;
-        renderer = GetComponent<Renderer>();
+        _renderer = GetComponent<Renderer>();
         InvokeRepeating("ToggleVisibility", 3f, 3f);
     }
 
@@ -20,8 +20,8 @@ public class Elf : EnemyParent
 
     private IEnumerator ToggleVisibilityRoutine()
     {
-        renderer.enabled = false;
+        _renderer.enabled = false;
         yield return new WaitForSeconds(0.5f);
-        renderer.enabled = true;
+        _renderer.enabled = true;
     }
 }
