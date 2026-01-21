@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e443951b932e0949bd4a10e04641141, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  itemName: 
-  itemType: 0
+  itemName: pizza
+  itemType: 3
   stats:
-    damage: 0
-    defense: 0
-    weight: 0
+    damage: 1
+    defense: 12
+    weight: 1
   basePrice: 0
   icon: {fileID: 0}

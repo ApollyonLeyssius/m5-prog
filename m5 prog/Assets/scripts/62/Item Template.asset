@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e443951b932e0949bd4a10e04641141, type: 3}
   m_Name: Item Template
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Katana
   itemType: 0
   stats:
-    damage: 0
+    damage: 12
     defense: 0
-    weight: 0
-  basePrice: 0
+    weight: 12
+  basePrice: 12
   icon: {fileID: 0}

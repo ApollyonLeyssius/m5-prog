@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e443951b932e0949bd4a10e04641141, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  itemName: 
-  itemType: 0
+  itemName: Defense up
+  itemType: 2
   stats:
     damage: 0
-    defense: 0
+    defense: 18
     weight: 0
-  basePrice: 0
+  basePrice: 16
   icon: {fileID: 0}
